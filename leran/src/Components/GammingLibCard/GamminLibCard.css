@@ -1,0 +1,26 @@
+.gamming-lib-card {
+  flex: 1 1 100%;
+}
+
+.gamming-lib-card ul {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--color-primary);
+  padding: var(--padding-secondry) 0;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 15px 10px;
+}
+
+.gamming-lib-card h4 {
+  font-size: 1rem;
+}
+@media secreen and (max-width: 992) {
+  .gamming-lib-card ul {
+    flex: 1 100% !important;
+    align-items: center;
+  }
+  .gamming-lib-card-img {
+    width: 100%;
+  }
+}

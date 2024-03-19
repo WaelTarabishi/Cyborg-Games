@@ -1,0 +1,26 @@
+.button-primary-button a {
+  background-color: var(--color-primary);
+  color: #fff;
+  padding: 8px 32px;
+  border-radius: var(--border-radius-primary);
+  transition: all 0.3s;
+  letter-spacing: 0.5px;
+}
+
+.button-primary-button a:hover {
+  color: var(--color-primary);
+  background-color: #fff;
+}
+.button-secondry-button a {
+  background-color: var(--color-primary);
+  color: #fff;
+  padding: 8px 32px;
+  border-radius: var(--border-radius-primary);
+  transition: all 0.3s;
+  letter-spacing: 0.5px;
+}
+
+.button-secondry-button a:hover {
+  color: var(--color-primary);
+  background-color: #fff;
+}

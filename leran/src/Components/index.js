@@ -1,0 +1,11 @@
+export { default as Contanier } from "./Container/Contanier";
+export { default as Navitem } from "./Navitem/Navitem";
+export { NavitemDropDown } from "./Navitem/Navitem";
+export { default as Card } from "./Card/Card";
+export { default as SectionHeader } from "./SectionHeader/SectionHeader";
+export { default as SectionWrapper } from "./SectionWrapper/SectionWrapper";
+export { default as mostPopualrData } from "../../src/Data/MostPopularData";
+export { default as GammingLibData } from "../../src/Data/GammingLibData";
+export { default as GammingLibCard } from "../Components/GammingLibCard/GammingLibCard";
+export { default as PrimaryButton } from "./Buttons/Buttons";
+export { SecondryButton } from "./Buttons/Buttons";

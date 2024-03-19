@@ -1,0 +1,29 @@
+:root {
+  --color-dark: #27292a;
+  --color-darkest: #1f2122;
+  --color-primary: #ec6090;
+  --color-light: white;
+  --color-bg-body: var(--color-darkest);
+  --dist-primary: 50px;
+  --padding-primary: var(--dist-primary);
+  --padding-secondry: calc(var(--dist-primary) / 2);
+  --margin-primary: var(--dist-primary);
+  --margin-secondry: calc(var(--dist-primary) / 2);
+  --margin-tertiary: calc(var(--dist-primary) / 5);
+  --border-radius-primary: calc(var(--dist-primary) / 2);
+  --border-radius-secondry: calc(var(--dist-primary) / 4);
+  --font-weight-bold: 700;
+  --font-weight-normal: 300;
+  --font-family-primary: "Poppins", sans-serif;
+}
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap");
+body {
+  background-color: var(--color-bg-body);
+  font-family: var(--font-family-primary);
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
